@@ -1,0 +1,17 @@
+{
+  "snapshot_context": "User-provided StockTrak account summary in conversation; exact timestamp of the summary was not stated.",
+  "reported_current_portfolio_value": 297403.07,
+  "cash_balance": 740.31,
+  "restricted_funds": 0.00,
+  "reported_total_market_value_all_positions": 297003.14,
+  "reported_total_market_value_long_positions": 297003.14,
+  "accrued_interest_earned_on_bonds": 1073.63,
+  "total_trades_made": 6,
+  "total_trades_remaining": 194,
+  "total_commissions_paid": 90.00,
+  "total_dividends_received": 0.00,
+  "reported_portfolio_total_return": -0.0087,
+  "reported_sp500_benchmark_return": -0.0129,
+  "reported_excess_return": 0.0043,
+  "initial_wins_capital_assumption": 300000.00
+}

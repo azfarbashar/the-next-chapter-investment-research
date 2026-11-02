@@ -1,0 +1,11 @@
+liability_payment_date,cash_needed_usd,cash_must_be_available_by,candidate_asset,target_maturity,face_value_to_price_in_2033,status
+2033-01-01,50000.0,2033-01-01,Cash / Treasury bill / Treasury STRIP or note,No later than prior business day before 2033-01-01,To be calculated from 2033 spot curve,Future implementation; not currently funded
+2034-01-01,50000.0,2034-01-01,Cash / Treasury bill / Treasury STRIP or note,No later than prior business day before 2034-01-01,To be calculated from 2033 spot curve,Future implementation; not currently funded
+2035-01-01,50000.0,2035-01-01,Cash / Treasury bill / Treasury STRIP or note,No later than prior business day before 2035-01-01,To be calculated from 2033 spot curve,Future implementation; not currently funded
+2036-01-01,50000.0,2036-01-01,Cash / Treasury bill / Treasury STRIP or note,No later than prior business day before 2036-01-01,To be calculated from 2033 spot curve,Future implementation; not currently funded
+2037-01-01,50000.0,2037-01-01,Cash / Treasury bill / Treasury STRIP or note,No later than prior business day before 2037-01-01,To be calculated from 2033 spot curve,Future implementation; not currently funded
+2038-01-01,50000.0,2038-01-01,Cash / Treasury bill / Treasury STRIP or note,No later than prior business day before 2038-01-01,To be calculated from 2033 spot curve,Future implementation; not currently funded
+2039-01-01,50000.0,2039-01-01,Cash / Treasury bill / Treasury STRIP or note,No later than prior business day before 2039-01-01,To be calculated from 2033 spot curve,Future implementation; not currently funded
+2040-01-01,50000.0,2040-01-01,Cash / Treasury bill / Treasury STRIP or note,No later than prior business day before 2040-01-01,To be calculated from 2033 spot curve,Future implementation; not currently funded
+2041-01-01,50000.0,2041-01-01,Cash / Treasury bill / Treasury STRIP or note,No later than prior business day before 2041-01-01,To be calculated from 2033 spot curve,Future implementation; not currently funded
+2042-01-01,50000.0,2042-01-01,Cash / Treasury bill / Treasury STRIP or note,No later than prior business day before 2042-01-01,To be calculated from 2033 spot curve,Future implementation; not currently funded

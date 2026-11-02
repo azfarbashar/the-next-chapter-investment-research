@@ -1,0 +1,11 @@
+payment_date,payment_made_usd,rungs_remaining_after_payment,future_nominal_payments_remaining_usd,composition_after_payment
+2033-01-01,50000.0,9,450000.0,9 matched U.S. Treasury/cash rungs for 2034-2042
+2034-01-01,50000.0,8,400000.0,8 matched U.S. Treasury/cash rungs for 2035-2042
+2035-01-01,50000.0,7,350000.0,7 matched U.S. Treasury/cash rungs for 2036-2042
+2036-01-01,50000.0,6,300000.0,6 matched U.S. Treasury/cash rungs for 2037-2042
+2037-01-01,50000.0,5,250000.0,5 matched U.S. Treasury/cash rungs for 2038-2042
+2038-01-01,50000.0,4,200000.0,4 matched U.S. Treasury/cash rungs for 2039-2042
+2039-01-01,50000.0,3,150000.0,3 matched U.S. Treasury/cash rungs for 2040-2042
+2040-01-01,50000.0,2,100000.0,2 matched U.S. Treasury/cash rungs for 2041-2042
+2041-01-01,50000.0,1,50000.0,1 matched U.S. Treasury/cash rungs for 2042-2042
+2042-01-01,50000.0,0,0.0,No remaining operating reserve rungs

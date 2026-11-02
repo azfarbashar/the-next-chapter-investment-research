@@ -1,0 +1,29 @@
+{
+  "data_years_us": [
+    1928,
+    2025
+  ],
+  "n_us_annual_observations": 98,
+  "n_overlapping_six_year_windows": 93,
+  "five_point_historical_worst_period": "1929-1934",
+  "five_point_historical_min_usd": 366262.56977615104,
+  "five_point_historical_p05_usd": 487875.00379953935,
+  "five_point_historical_median_usd": 686880.0809928876,
+  "five_point_historical_windows_ge_500k": 88,
+  "bootstrap_five_p05_usd": 459969.98742349097,
+  "bootstrap_five_median_usd": 702062.7332319353,
+  "bootstrap_five_share_ge_500k": 0.91822,
+  "bootstrap_five_cvar95_funding_gap_usd": 111467.00620017848,
+  "bootstrap_five_share_meeting_3pct_pv": 0.96009,
+  "bootstrap_five_share_meeting_4pct_pv": 0.96691,
+  "2031_median_balance_usd": 607773.5458512723,
+  "2033_conditional_p05_usd": 548038.6441925672,
+  "facility_scenario_method": "Joint six-year paired moving-block paths, grouped by 2031 balance percentile bands",
+  "facility_cap_middle_50pct_zero_yield_usd": 20000.0,
+  "facility_cap_middle_50pct_3pct_reserve_pv_usd": 50000.0,
+  "wins_reconstructed_value_usd": 297403.08,
+  "wins_reported_value_usd": 297403.07,
+  "wins_line_positions_value_usd": 295589.14,
+  "wins_bond_face_value_usd": 105000.0,
+  "wins_annual_coupon_run_rate_usd": 5225.0
+}

@@ -1,0 +1,7 @@
+asset,symbol,quantity,price_paid,last_price,market_value,pl,pl_pct,security_type,face_value_per_unit,coupon_rate,maturity_date,accrued_interest_per_unit,reported_yield
+US equity,VTI,372,378.13,371.57,138224.04,-2440.32,-0.0173,Equity,,,,,
+International equity,VXUS,633,85.17,82.37,52140.21,-1772.40,-0.0329,Equity,,,,,
+US Treasury,B-T-5.375-15022031,52,1006.23167,1011.18,52581.26,257.21,0.0049,Bond,1000,0.05375,2031-02-15,11.0445,0.04726534
+US Treasury,B-T-4.500-15022036,17,1028.48942,1034.69,17589.74,105.42,0.0060,Bond,1000,0.04500,2036-02-15,9.2466,0.04780257
+US Treasury,B-T-4.750-15022037,18,962.49613,987.46,17774.37,449.44,0.0259,Bond,1000,0.04750,2037-02-15,9.7603,0.04905686
+US Treasury,B-T-4.500-15052038,18,933.38539,959.97,17279.52,478.58,0.0285,Bond,1000,0.04500,2038-05-15,9.2466,0.04959340

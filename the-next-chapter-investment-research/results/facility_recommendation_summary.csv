@@ -1,0 +1,3 @@
+scenario,median_2031_balance_usd,conditional_2033_p05_usd,reserve_benchmark_usd,surplus_at_p05_usd,conditional_facility_cap_usd,share_paths_cover_reserve_plus_cap,recommendation
+Lower 10th-25th percentile 2031 balance band,507813.04447507113,452333.07156735,500000,-47666.92843264999,0.0,0.8859730917810044,No facility contribution
+Middle 50% 2031 balance band,607879.009985379,548038.6441925672,500000,48038.64419256721,20000.0,0.9688325198047532,"Planning range $0-$20,000; upper end conditional on observed 2031 balance and updated curve"

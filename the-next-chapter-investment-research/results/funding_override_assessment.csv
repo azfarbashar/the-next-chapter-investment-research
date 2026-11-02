@@ -1,0 +1,7 @@
+flat_discount_rate_sensitivity,reserve_cost_usd,five_point_success_share,eight_point_success_share,selected_policy_response,facility_spending_rule,interpretation
+0.0,500000.0,0.91822,0.92277,eight_point_fallback_target_unmet_zero_facility,Permitted only after reserve is fully funded and the selected policy meets 95%; otherwise $0,Eight-point fallback is more defensive but target remains unmet; $0 facility contribution
+0.01,478300.8788004344,0.93496,0.94165,eight_point_fallback_target_unmet_zero_facility,Permitted only after reserve is fully funded and the selected policy meets 95%; otherwise $0,Eight-point fallback is more defensive but target remains unmet; $0 facility contribution
+0.02,458111.835318354,0.95127,0.95774,maintain_five_point_glide,Permitted only after reserve is fully funded and the selected policy meets 95%; otherwise $0,Maintain five-point baseline
+0.03,439305.4460939552,0.96009,0.96744,maintain_five_point_glide,Permitted only after reserve is fully funded and the selected policy meets 95%; otherwise $0,Maintain five-point baseline
+0.04,421766.5805264614,0.96691,0.97286,maintain_five_point_glide,Permitted only after reserve is fully funded and the selected policy meets 95%; otherwise $0,Maintain five-point baseline
+0.05,405391.08378220256,0.97207,0.97696,maintain_five_point_glide,Permitted only after reserve is fully funded and the selected policy meets 95%; otherwise $0,Maintain five-point baseline

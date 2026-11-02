@@ -1,0 +1,7 @@
+trigger,required_action,interpretation
+"Annual review, 2027-2032",Reprice the reserve sensitivity and compare five- and eight-point projected funding shares with 95%,Keep five points if it meets target
+"Five-point path below 95%, eight-point path at or above 95%",Switch to accelerated eight-percentage-point annual de-risking and suspend facility spending until reserve is secured,Fallback meets model target under current assumptions
+Both paths below 95%,"Use eight-point path as more defensive fallback, set facility contribution to $0, and direct all available discretionary capital toward operating reserve",Target remains unmet; disclose shortfall risk; no policy can reverse losses already incurred
+2031 co-sponsor communication,"Provide conditional $0-$20,000 planning range only when observed balance and updated reserve price support fifth-percentile coverage",Upper bound not a promise; lower 2031 balance bands support $0
+Beginning of 2033,Price reserve from actual zero-coupon spot curve; segregate full reserve before first payment or facility contribution,"If assets are below reserve cost, no facility spending; disclose funding gap"
+2033-2042 each January,"Pay $50,000 from immediately available cash or maturing matched rung; retire that rung","Once full ladder is purchased, market-price movements do not require equity sales for scheduled payments"

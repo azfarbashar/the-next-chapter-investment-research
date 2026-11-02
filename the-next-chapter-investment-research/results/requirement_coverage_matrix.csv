@@ -1,0 +1,11 @@
+requirement,policy_rule,evidence_and_limitation
+"Ten $50,000 operating payments","Portfolio alone funds ten beginning-of-year payments, 2033-2042; no grants or sponsors counted for operations",Ten-rung reserve design; payment certainty follows only after the complete ladder is purchased
+Operating reserve established in 2033,Price and segregate reserve on 1 Jan 2033 before the first payment or facility spending,First payment immediate; nine future payments priced from 2033 zero-coupon spot rates
+Initial reserve asset composition,"$50,000 immediate cash/T-bill plus nine nominal Treasury STRIPS or dedicated cash-flow rungs","Flat 3% illustrative price $439,305; zero-yield nominal benchmark $500,000"
+Reserve composition through 2042,"Pay $50,000 each 1 Jan; retire one rung; hold remaining rungs in matched Treasuries/cash",Ten-year roll-forward schedule; proceeds available no later than due date
+High degree of certainty,Internal policy target: at least 95% modeled probability of accumulating the priced reserve,"Five-point path: 96.009% at illustrative 3% PV, 91.822% at $500k stress; eight-point fallback: 96.744% at 3%, 92.277% at $500k stress"
+Funding override,Maintain five points if it meets 95%; switch to eight points if only it meets 95%; otherwise $0 facility and disclose target miss,Explicit simulation-based fallback rule; does not reverse prior losses or guarantee funding
+Responsible facility contribution,"Spend at most half positive 5th-percentile surplus after reserve, rounded down to $5k",Middle 50% 2031 balance band supports conditional $20k cap against $500k benchmark; lower 10th-25% band supports $0
+2031 co-sponsor range,Communicate conditional $0-$20k planning range; recalculate using actual balance and then-current curve,96.883% of middle-50% conditional paths retain at least $520k after $20k; not unconditional confidence
+Dynamic allocation,"Equity targets 65/60/55/50/45/40% in 2027-2032, annual rebalance and funding override","Rolling historical tests and 100,000 paired moving-block bootstrap paths"
+Inflation,"Keep payments fixed nominally; assess real purchasing power, Taiwan cost inflation and USD/TWD risk","2%, 3%, 5% purchasing-power sensitivities; no local cost/FX forecast"

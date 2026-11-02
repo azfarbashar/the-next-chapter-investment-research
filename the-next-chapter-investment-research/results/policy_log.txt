@@ -1,0 +1,20 @@
+{
+  "high_certainty_policy_target": 0.95,
+  "base_case_discount_rate_sensitivity": 0.03,
+  "base_case_reserve_pv_usd": 439305.4460939552,
+  "five_point_base_case_modeled_funding_share": 0.96009,
+  "eight_point_base_case_modeled_funding_share": 0.96744,
+  "zero_yield_reserve_pv_usd": 500000.0,
+  "five_point_zero_yield_modeled_funding_share": 0.91822,
+  "eight_point_zero_yield_modeled_funding_share": 0.92277,
+  "five_point_2033_p05_usd": 459969.98742349097,
+  "eight_point_2033_p05_usd": 467738.7253464089,
+  "five_point_equivalent_flat_rate_at_p05": 0.019049218282267577,
+  "eight_point_equivalent_flat_rate_at_p05": 0.015142335771950344,
+  "middle_50pct_2031_median_balance_usd": 607879.009985379,
+  "middle_50pct_conditional_2033_p05_usd": 548038.6441925672,
+  "central_facility_cap_usd": 20000.0,
+  "middle_50pct_paths_cover_500k_plus_20k": 0.9688325198047532,
+  "ladder_example_3pct_pv_usd": 439305.4460939552,
+  "automated_tests_expected": 32
+}

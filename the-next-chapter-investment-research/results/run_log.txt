@@ -1,0 +1,45 @@
+{
+  "data_years_us": [
+    1928,
+    2025
+  ],
+  "n_us_annual_observations": 98,
+  "n_overlapping_six_year_windows": 93,
+  "five_point_historical_worst_period": "1929-1934",
+  "five_point_historical_min_usd": 366262.56977615104,
+  "five_point_historical_p05_usd": 487875.00379953935,
+  "five_point_historical_median_usd": 686880.0809928876,
+  "five_point_historical_windows_ge_500k": 88,
+  "bootstrap_five_p05_usd": 459969.98742349097,
+  "bootstrap_five_median_usd": 702062.7332319353,
+  "bootstrap_five_share_ge_500k": 0.91822,
+  "bootstrap_five_cvar95_funding_gap_usd": 111467.00620017848,
+  "bootstrap_five_share_meeting_3pct_pv": 0.96009,
+  "bootstrap_five_share_meeting_4pct_pv": 0.96691,
+  "2031_median_balance_usd": 607773.5458512723,
+  "2033_conditional_p05_usd": 548038.6441925672,
+  "facility_scenario_method": "Joint six-year paired moving-block paths, grouped by 2031 balance percentile bands",
+  "facility_cap_middle_50pct_zero_yield_usd": 20000.0,
+  "facility_cap_middle_50pct_3pct_reserve_pv_usd": 50000.0,
+  "wins_reconstructed_value_usd": 297403.08,
+  "wins_reported_value_usd": 297403.07,
+  "wins_line_positions_value_usd": 295589.14,
+  "wins_bond_face_value_usd": 105000.0,
+  "wins_annual_coupon_run_rate_usd": 5225.0
+}
+
+Bootstrap comparison:
+                         case  paths_or_windows  mean_terminal_value_usd  p05_terminal_value_usd  p10_terminal_value_usd  p25_terminal_value_usd  median_terminal_value_usd  p75_terminal_value_usd  p90_terminal_value_usd  p95_terminal_value_usd  share_at_or_above_500k  mean_worst_5pct_terminal_value_usd  cvar95_funding_gap_usd  mean_gap_conditional_on_shortfall_usd                       policy
+              constant_65_35            100000            741974.267790           433883.030316           506847.238174           613843.051347              734853.500399           866891.525972           991773.447166            1.069977e+06                 0.90652                       351448.502373           148551.497627                           94102.383531               constant_65_35
+ five_percentage_point_glide            100000            709027.004326           459969.987423           517201.300166           603336.385709              702062.733232           811073.321904           914971.690773            9.788573e+05                 0.91822                       388532.993800           111467.006200                           75847.225303  five_percentage_point_glide
+eight_percentage_point_glide            100000            689578.791437           467738.725346           516809.493362           593587.065984              681857.185100           779831.317138           874332.049337            9.352405e+05                 0.92277                       403974.831386            96025.168614                           67715.222639 eight_percentage_point_glide
+
+Facility scenarios:
+                 2031_balance_band  path_count  2031_balance_median_usd  2033_p05_value_usd  2033_p10_value_usd  2033_median_value_usd  share_paths_cover_500k_reserve  no_yield_reserve_benchmark_usd  p05_surplus_vs_500k_usd  facility_cap_at_0pct_reserve_yield_usd  3pct_flat_pv_benchmark_usd  p05_surplus_vs_3pct_pv_usd  facility_cap_at_3pct_flat_pv_usd  share_paths_cover_500k_plus_zero_yield_cap
+          Bottom 10% 2031 balance       10002            428274.843246       317479.534952       338778.677828          490181.691654                        0.457908                        500000.0           -182520.465048                                     0.0               439305.446094              -121825.911142                               0.0                                    0.457908
+10th-25th percentile 2031 balance       15014            507813.044475       452333.071567       491919.679706          591551.730308                        0.885973                        500000.0            -47666.928433                                     0.0               439305.446094                13027.625473                            5000.0                                    0.885973
+          Middle 50% 2031 balance       49988            607879.009985       548038.644193       582011.726702          700775.600740                        0.977975                        500000.0             48038.644193                                 20000.0               439305.446094               108733.198099                           50000.0                                    0.968833
+75th-90th percentile 2031 balance       15004            719574.668128       669091.969120       700764.177566          833652.921062                        1.000000                        500000.0            169091.969120                                 80000.0               439305.446094               229786.523026                          110000.0                                    0.995934
+             Top 10% 2031 balance        9992            801580.654538       753535.189788       785203.967479          947920.446293                        1.000000                        500000.0            253535.189788                                125000.0               439305.446094               314229.743694                          155000.0                                    1.000000
+
+Tests should be run with: python -m unittest discover -s tests -v

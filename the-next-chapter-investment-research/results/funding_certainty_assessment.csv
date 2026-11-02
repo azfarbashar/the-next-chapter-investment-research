@@ -1,0 +1,13 @@
+policy,flat_discount_rate_assumption,reserve_cost_usd,modeled_share_reaching_reserve,policy_threshold,meets_95pct_policy_threshold,selected_response,decision_explanation
+Five-point baseline,0.0,500000.0,0.91822,0.95,False,eight_point_fallback_target_unmet_zero_facility,"Neither path meets 95%; use eight-point fallback, set facility contribution to zero, and disclose the funding target miss."
+Eight-point fallback,0.0,500000.0,0.92277,0.95,False,eight_point_fallback_target_unmet_zero_facility,"Neither path meets 95%; use eight-point fallback, set facility contribution to zero, and disclose the funding target miss."
+Five-point baseline,0.01,478300.8788004344,0.93496,0.95,False,eight_point_fallback_target_unmet_zero_facility,"Neither path meets 95%; use eight-point fallback, set facility contribution to zero, and disclose the funding target miss."
+Eight-point fallback,0.01,478300.8788004344,0.94165,0.95,False,eight_point_fallback_target_unmet_zero_facility,"Neither path meets 95%; use eight-point fallback, set facility contribution to zero, and disclose the funding target miss."
+Five-point baseline,0.02,458111.835318354,0.95127,0.95,True,maintain_five_point_glide,Five-point baseline meets the 95% modeled threshold under this reserve valuation.
+Eight-point fallback,0.02,458111.835318354,0.95774,0.95,True,maintain_five_point_glide,Five-point baseline meets the 95% modeled threshold under this reserve valuation.
+Five-point baseline,0.03,439305.4460939552,0.96009,0.95,True,maintain_five_point_glide,Five-point baseline meets the 95% modeled threshold under this reserve valuation.
+Eight-point fallback,0.03,439305.4460939552,0.96744,0.95,True,maintain_five_point_glide,Five-point baseline meets the 95% modeled threshold under this reserve valuation.
+Five-point baseline,0.04,421766.5805264614,0.96691,0.95,True,maintain_five_point_glide,Five-point baseline meets the 95% modeled threshold under this reserve valuation.
+Eight-point fallback,0.04,421766.5805264614,0.97286,0.95,True,maintain_five_point_glide,Five-point baseline meets the 95% modeled threshold under this reserve valuation.
+Five-point baseline,0.05,405391.08378220256,0.97207,0.95,True,maintain_five_point_glide,Five-point baseline meets the 95% modeled threshold under this reserve valuation.
+Eight-point fallback,0.05,405391.08378220256,0.97696,0.95,True,maintain_five_point_glide,Five-point baseline meets the 95% modeled threshold under this reserve valuation.

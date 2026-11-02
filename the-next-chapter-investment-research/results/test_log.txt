@@ -1,0 +1,37 @@
+test_facility_cap_is_zero_if_p05_below_reserve (test_liability_ladder.LiabilityLadderTests.test_facility_cap_is_zero_if_p05_below_reserve) ... ok
+test_first_payment_is_undiscounted (test_liability_ladder.LiabilityLadderTests.test_first_payment_is_undiscounted) ... ok
+test_flat_three_percent_matches_annuity_due (test_liability_ladder.LiabilityLadderTests.test_flat_three_percent_matches_annuity_due) ... ok
+test_invalid_curve_rejected (test_liability_ladder.LiabilityLadderTests.test_invalid_curve_rejected) ... ok
+test_ladder_cost_sums_to_reserve_pv (test_liability_ladder.LiabilityLadderTests.test_ladder_cost_sums_to_reserve_pv) ... ok
+test_ladder_has_ten_payment_rungs (test_liability_ladder.LiabilityLadderTests.test_ladder_has_ten_payment_rungs) ... ok
+test_middle_band_facility_cap_rounds_down (test_liability_ladder.LiabilityLadderTests.test_middle_band_facility_cap_rounds_down) ... ok
+test_rollforward_retires_one_rung_each_year (test_liability_ladder.LiabilityLadderTests.test_rollforward_retires_one_rung_each_year) ... ok
+test_zero_rate_requires_full_500k (test_liability_ladder.LiabilityLadderTests.test_zero_rate_requires_full_500k) ... ok
+test_annuity_due_pv_four_percent (test_model.ModelTests.test_annuity_due_pv_four_percent) ... ok
+test_annuity_due_pv_zero_rate (test_model.ModelTests.test_annuity_due_pv_zero_rate) ... ok
+test_bootstrap_reproducibility (test_model.ModelTests.test_bootstrap_reproducibility) ... ok
+test_cvar_funding_gap_nonnegative (test_model.ModelTests.test_cvar_funding_gap_nonnegative) ... ok
+test_facility_cap_never_spends_reserve (test_model.ModelTests.test_facility_cap_never_spends_reserve) ... ok
+test_funding_policy_discloses_target_miss_and_zero_facility (test_model.ModelTests.test_funding_policy_discloses_target_miss_and_zero_facility) ... ok
+test_funding_policy_keeps_five_point_when_it_passes (test_model.ModelTests.test_funding_policy_keeps_five_point_when_it_passes) ... ok
+test_funding_policy_rejects_invalid_probabilities (test_model.ModelTests.test_funding_policy_rejects_invalid_probabilities) ... ok
+test_funding_policy_uses_eight_point_if_only_it_passes (test_model.ModelTests.test_funding_policy_uses_eight_point_if_only_it_passes) ... ok
+test_glide_path_five_percentage_points (test_model.ModelTests.test_glide_path_five_percentage_points) ... ok
+test_historical_data_coverage (test_model.ModelTests.test_historical_data_coverage) ... ok
+test_inflation_sensitivity (test_model.ModelTests.test_inflation_sensitivity) ... ok
+test_joint_facility_bands_are_complete (test_model.ModelTests.test_joint_facility_bands_are_complete) ... ok
+test_joint_path_uses_same_six_year_sequence (test_model.ModelTests.test_joint_path_uses_same_six_year_sequence) ... ok
+test_modern_data_coverage (test_model.ModelTests.test_modern_data_coverage) ... ok
+test_moving_block_shape_and_pairing (test_model.ModelTests.test_moving_block_shape_and_pairing) ... ok
+test_reserve_thresholds_order_correctly (test_model.ModelTests.test_reserve_thresholds_order_correctly) ... ok
+test_rolling_windows_count (test_model.ModelTests.test_rolling_windows_count) ... ok
+test_six_year_contribution_timing (test_model.ModelTests.test_six_year_contribution_timing) ... ok
+test_spot_curve_equals_flat_curve (test_model.ModelTests.test_spot_curve_equals_flat_curve) ... ok
+test_spot_curve_requires_all_tenors (test_model.ModelTests.test_spot_curve_requires_all_tenors) ... ok
+test_wins_principal_maturities_are_not_early_cash (test_model.ModelTests.test_wins_principal_maturities_are_not_early_cash) ... ok
+test_wins_reconciliation_and_face_value (test_model.ModelTests.test_wins_reconciliation_and_face_value) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.043s
+
+OK

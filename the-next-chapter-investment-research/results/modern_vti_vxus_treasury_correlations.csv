@@ -1,0 +1,10 @@
+asset,other_asset,correlation
+vti_total_return,vti_total_return,1.0
+vxus_total_return,vti_total_return,0.770769434469244
+tbond10_total_return,vti_total_return,0.24572226472581035
+vti_total_return,vxus_total_return,0.770769434469244
+vxus_total_return,vxus_total_return,1.0
+tbond10_total_return,vxus_total_return,0.19315430928730487
+vti_total_return,tbond10_total_return,0.24572226472581035
+vxus_total_return,tbond10_total_return,0.19315430928730487
+tbond10_total_return,tbond10_total_return,1.0

@@ -1,0 +1,9 @@
+item,amount_usd,source
+Sum of six line-item market values,295589.14,User-provided open-position tables
+Accrued interest on bonds,1073.63,User-provided account summary
+Cash balance,740.31,User-provided account summary
+Reconstructed account value,297403.08,Calculated
+Reported current portfolio value,297403.07,User-provided account summary
+Reconstruction less reported portfolio value,0.010000000009313226,Calculated; rounding difference
+Reported total market value of all positions,297003.14,User-provided account summary
+Line-item positions less reported total market value field,-1414.0,Unreconciled summary-field difference; not explained
